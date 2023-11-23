@@ -1,3 +1,14 @@
+/*included a set of variables
+  - color pallet
+*/
+:root {
+  --color-1: #E4AB3A;
+  --color-2: #D6BA73;
+  --color-3: #A3CCB3;
+  --color-4: #403C3B;
+  --color-5: #59344F;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +18,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: var(--color-3)
 }
 
 h1,
@@ -20,4 +32,37 @@ h6 {
 
 p {
   margin: 0;
+}
+
+/**/
+h1 {
+  background-color: var(--color-3);
+  color: var(--color-4);
+  font-size: 25px;
+  height: 35px;
+  padding: 0 7px 0 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  height: 50px;
+  background-color: var(--color-4);
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 7px 0 7px;
+  border-bottom: var(--color-3) solid;  
+  align-content: center;
+}
+
+nav ul li a{
+  color: var(--color-3);
+  text-decoration: none;
 }
