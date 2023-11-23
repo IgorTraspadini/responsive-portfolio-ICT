@@ -50,7 +50,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-right: 50px;
+  padding-right: 55px;
   height: 50px;
   background-color: var(--color-4);
 }
@@ -58,6 +58,7 @@ header {
 nav ul li {
   display: inline;
   padding: 0 7px 0 7px;
+  margin: 0 2px;
   border-bottom: var(--color-3) solid;  
   align-content: center;
 }
