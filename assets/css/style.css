@@ -59,16 +59,16 @@ nav ul li {
   display: inline-block;
   padding: 0 7px 0 7px;
   margin-left: 10px;
-  border-bottom: var(--color-3) solid;  
+  border-bottom: var(--color-3) solid;
   align-content: center;
 }
 
-nav ul li a{
+nav ul li a {
   color: var(--color-3);
   text-decoration: none;
 }
 
-.hero-banner{
+.hero-banner {
   background-image: url(../images/web.jpg);
   background-size: 80% 200px;
   background-repeat: no-repeat;
@@ -78,12 +78,61 @@ nav ul li a{
   background-color: #0E396C;
 }
 
-.hero-banner div > h2 {
+.hero-banner div>h2 {
   position: absolute;
   top: 200px;
   right: 60px;
   width: 300px;
   color: var(--color-3);
   /*background-color: var(--color-3);*/
-  font-size: 25px; 
+  font-size: 25px;
 }
+
+.page-wrapper {
+  display: grid;
+  margin: 20px 5% 0 5%;
+  row-gap: 20px;
+  column-gap: 5px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "about about-content"
+    "work work-content"
+    "contact contact-content";
+}
+
+.page-section {
+  font-size: 40px;
+  text-align: right;
+  padding-right: 5px;
+  color: var(--color-4);
+}
+
+.about-content, .contact-content, .work-content{
+  padding-left: 20px;
+  border-left: var(--color-4) solid;
+}
+
+#about {
+  grid-area: about;
+}
+
+.about-content {
+  grid-area: about-content;
+}
+
+#work {
+  grid-area: work;
+}
+
+.work-content {
+  grid-area: work-content;
+}
+
+#contact {
+  grid-area: contact;
+}
+
+.contact-content {
+  grid-area: contact-content;
+}
+
