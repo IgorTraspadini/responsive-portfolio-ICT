@@ -65,7 +65,7 @@ header {
   background-color: var(--color-4);
 }
 
-nav ul li {
+ul li {
   display: inline-block;
   padding: 0 7px 0 7px;
   margin-left: 10px;
@@ -73,7 +73,7 @@ nav ul li {
   align-content: center;
 }
 
-nav ul li a {
+ul li a {
   color: var(--color-3);
   text-decoration: none;
 }
@@ -210,6 +210,21 @@ article {
 
 #project-1 article {
   top: 320px;
+}
+
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact a {
+  color: var(--color-4);
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: var(--color-4) solid;
+  padding: 2px 5px;
 }
 
 /* CSS of the footer element */
