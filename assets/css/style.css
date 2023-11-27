@@ -103,7 +103,7 @@ ul li a {
   margin: 20px 10% 10px 5%;
   row-gap: 20px;
   column-gap: 5px;
-  grid-template-rows: 200px 1fr 100px;
+  grid-template-rows: 180px 1fr 90px;
   grid-template-columns: 20% 80%;
   grid-template-areas: "about about-content"
     "work work-content"
@@ -235,4 +235,94 @@ footer {
   font-size: 13px;
   background-color: var(--color-4);
   color: var(--color-3);
+}
+
+
+/* Added a Media Queries to allowed a Responsive Web Design*/
+@media screen and ((max-width: 768px) or (max-device-width: 1024px)) {
+  nav {
+    display: none;
+  }
+  .hero-banner {
+    background-size: 100% 200px;
+  }  
+
+  .page-wrapper {
+    display: grid;
+    margin: 15px 2% 10px 2%;
+    row-gap: 10px;
+    grid-template-rows: 40px 190px 40px 1fr 40px 50px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "about"
+      "about-content"
+      "work"
+      "work-content"
+      "contact"
+      "contact-content";
+  }
+
+  .page-section {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    padding-right: 0px;
+    color: var(--color-4);
+    word-spacing: normal;
+  }
+
+  .about-content,
+  .contact-content,
+  .work-content {
+    padding-left: 0px;
+    border-left: none;
+  }
+
+  #project-1 article {
+    top: 220px;
+  }
+
+  .work-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 150px 150px 150px 150px;
+    grid-template-areas: "project-1"
+      "project-2"
+      "project-3"
+      "project-4"
+      "project-5";
+    gap: 10px;
+  }
+
+}
+
+
+@media screen and ((max-width: 320px) or (max-device-width: 480px)) {
+
+  .hero-banner {
+    background-size: 100% 200px;
+  }  
+
+  .hero-banner div>h2 {
+  display: none;
+  }
+  .page-wrapper {
+    grid-template-rows: 40px 330px 40px 1fr 40px 120px;
+  }
+  #project-1 article {
+    top: 200px;
+  }
+
+  .work-wrapper {
+    gap: 5px;
+  }
+
+    .contact {
+    flex-direction: column;
+  }
+
+  .contact a {
+    font-size: 15px;
+    padding: 0px 5px;
+  }
+
 }
