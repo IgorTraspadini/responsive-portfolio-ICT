@@ -14,23 +14,13 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 - When images of the applications are clicked then the user is taken to that deployed application
 - When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 <br>
-
-https://github.com/IgorTraspadini/responsive-portfolio-ICT/assets/126266157/e730a1ea-ebc4-4eaa-b151-eef659afae41
-
-<video width="390px" height="520px" autoplay loop muted>
-  <source src="https://github.com/IgorTraspadini/responsive-portfolio-ICT/assets/126266157/e730a1ea-ebc4-4eaa-b151-eef659afae41" type="video/mp4">
-</video>
-<br>
+<video src="https://github.com/IgorTraspadini/responsive-portfolio-ICT/assets/126266157/e730a1ea-ebc4-4eaa-b151-eef659afae41.mp4" type="video/mp4" autoplay loop muted></video>
 <i>ipad responsive portifolio.</i>
 <br>
 <br>
-<video width="288px" height="512px" autoplay loop muted>
-  <source src="./assets/images/phone.mp4" type="video/mp4">
-</video>
-<br>
+<video src="https://github.com/IgorTraspadini/responsive-portfolio-ICT/assets/126266157/7ac9ff6e-1f97-45b9-a78b-cab9db69d1f3.mp4" type="video/mp4" autoplay loop muted></video>
 <i>phone responsive portifolio.</i>
 <br>
-
 
 ## Language
 - HTML5
@@ -46,7 +36,7 @@ index.html
 ```
 
 ## Link to Deployed Project
-- []()
+- [Project Link](https://igortraspadini.github.io/responsive-portfolio-ICT/)
 
 ## References 
 - [HTML5-Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
