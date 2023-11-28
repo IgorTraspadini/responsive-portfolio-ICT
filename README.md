@@ -14,10 +14,11 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 - When images of the applications are clicked then the user is taken to that deployed application
 - When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 <br>
-<br>
+
+https://github.com/IgorTraspadini/responsive-portfolio-ICT/assets/126266157/e730a1ea-ebc4-4eaa-b151-eef659afae41
 
 <video width="390px" height="520px" autoplay loop muted>
-  <source src="./assets/images/ipad.mp4" type="video/mp4">
+  <source src="https://github.com/IgorTraspadini/responsive-portfolio-ICT/assets/126266157/e730a1ea-ebc4-4eaa-b151-eef659afae41" type="video/mp4">
 </video>
 <br>
 <i>ipad responsive portifolio.</i>
