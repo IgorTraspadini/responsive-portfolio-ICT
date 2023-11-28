@@ -38,11 +38,10 @@ p {
 */
 
 
-/*  */
+/* included a backgroud color  */
 body {
   background-color: var(--color-3)
 }
-
 
 h1 {
   background-color: var(--color-3);
@@ -54,7 +53,7 @@ h1 {
   margin-bottom: 5px;
 }
 
-
+/* included a flex box to accommodate the h1 and nav elements */
 header {
   display: flex;
   flex-direction: row;
@@ -94,7 +93,6 @@ ul li a {
   right: 60px;
   width: 300px;
   color: var(--color-3);
-  /*background-color: var(--color-3);*/
   font-size: 25px;
 }
 
@@ -212,7 +210,7 @@ article {
   top: 320px;
 }
 
-
+/* CSS of the contact element */
 .contact {
   display: flex;
   align-items: center;
@@ -239,13 +237,15 @@ footer {
 
 
 /* Added a Media Queries to allowed a Responsive Web Design*/
+/* adjust the elements to display in a ipad device */
 @media screen and ((max-width: 768px) or (max-device-width: 1024px)) {
   nav {
     display: none;
   }
+
   .hero-banner {
     background-size: 100% 200px;
-  }  
+  }
 
   .page-wrapper {
     display: grid;
@@ -295,19 +295,17 @@ footer {
 
 }
 
-
+/* adjust the elements to display in a phone device */
 @media screen and ((max-width: 320px) or (max-device-width: 480px)) {
 
-  .hero-banner {
-    background-size: 100% 200px;
-  }  
-
   .hero-banner div>h2 {
-  display: none;
+    display: none;
   }
+
   .page-wrapper {
     grid-template-rows: 40px 330px 40px 1fr 40px 120px;
   }
+
   #project-1 article {
     top: 200px;
   }
@@ -316,7 +314,7 @@ footer {
     gap: 5px;
   }
 
-    .contact {
+  .contact {
     flex-direction: column;
   }
 

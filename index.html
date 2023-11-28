@@ -8,7 +8,6 @@
   <title>ICT - Web Developer</title>
   <!-- included a reset.css file as a good practice -->
   <link rel="stylesheet" href="./assets/css/reset.css" />
-
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
@@ -18,10 +17,15 @@
     <h1>Igor Traspadini</h1>
     <nav>
       <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-        <li><a href="./assets/doc/ICT_CV.pdf" target="_blank" rel='noreferrer noopener'>Resume</a></li>
+        <!-- Included a role and label on the "a" element, to ensure that 
+          people using assistive technologies are able to use them. 
+          Examples of assistive technologies are screen readers,
+          switch controls and speech recognition software. -->
+        <li><a href="#about" role="button" aria-label="about session">About Me</a></li>
+        <li><a href="#work" role="button" aria-label="work session">Work</a></li>
+        <li><a href="#contact" role="button" aria-label="contact session">Contact Me</a></li>
+        <li><a href="./assets/doc/ICT_CV.pdf" target="_blank" rel='noreferrer noopener' role="button"
+            aria-label="resume pdf">Resume</a></li>
       </ul>
     </nav>
   </header>
@@ -55,55 +59,66 @@
     <section class="page-section" id="work">
       <h2>Work</h2>
     </section>
-
+    <!-- Included a role and label on the "a" element, to ensure that 
+          people using assistive technologies are able to use them. 
+          Examples of assistive technologies are screen readers,
+          switch controls and speech recognition software. -->
     <section class="work-content">
       <section class="work-wrapper">
-        <a class="project" id="project-1" href="" target="_blank" rel='noreferrer noopener' role="button" aria-label="Shop floor Web Application screen shot">
+        <a class="project" id="project-1" href="" target="_blank" rel='noreferrer noopener' role="button"
+          aria-label="Shop floor Web Application screen shot">
           <article>
             <h3>Shop floor Web Application</h3>
             <p>Application designed to provide digitization of the shop floor process.</p>
           </article>
         </a>
-        <a class="project" id="project-2" href="" target="_blank" rel='noreferrer noopener' role="button" aria-label="project 2 screen shot">
+        <a class="project" id="project-2" href="" target="_blank" rel='noreferrer noopener' role="button"
+          aria-label="project 2 screen shot">
           <article>
             <h3>Project 2</h3>
             <p>Details</p>
           </article>
         </a>
-
-        <a class="project" id="project-3" href="" target="_blank" rel='noreferrer noopener' role="button" aria-label="project 3 screen shot">
+        <a class="project" id="project-3" href="" target="_blank" rel='noreferrer noopener' role="button"
+          aria-label="project 3 screen shot">
           <article>
             <h3>Project 3</h3>
             <p>Details</p>
           </article>
         </a>
-        <a class="project" id="project-4" href="" target="_blank" rel='noreferrer noopener' role="button" aria-label="project 4 screen shot">
+        <a class="project" id="project-4" href="" target="_blank" rel='noreferrer noopener' role="button"
+          aria-label="project 4 screen shot">
           <article>
             <h3>Project 4</h3>
             <p>Details</p>
           </article>
         </a>
-        <a class="project" id="project-5" href="" target="_blank" rel='noreferrer noopener' role="button" aria-label="project 5 screen shot">
+        <a class="project" id="project-5" href="" target="_blank" rel='noreferrer noopener' role="button"
+          aria-label="project 5 screen shot">
           <article>
             <h3>Project 5</h3>
             <p>Details</p>
           </article>
-
         </a>
       </section>
-
     </section>
 
     <!-- contact -->
     <section class="page-section" id="contact">
       <h2>Contact Me</h2>
     </section>
+    <!-- Included a role and label on the "a" element, to ensure that 
+          people using assistive technologies are able to use them. 
+          Examples of assistive technologies are screen readers,
+          switch controls and speech recognition software. -->
     <section class="contact-content contact">
       <a>+44 7955581469</a>
-      <a href="mailto: igorchieppe@hotmail.com" target="_blank" rel='noreferrer noopener'>igorchieppe@hotmail.com</a>
-      <a href="https://github.com/IgorTraspadini" target="_blank" rel='noreferrer noopener'>GitHub</a>
+      <a href="mailto: igorchieppe@hotmail.com" target="_blank" rel='noreferrer noopener' role="button"
+        aria-label="link to email">igorchieppe@hotmail.com</a>
+      <a href="https://github.com/IgorTraspadini" target="_blank" rel='noreferrer noopener' role="button"
+        aria-label="github link">GitHub</a>
       <a href="https://www.linkedin.com/in/igor-chieppe-traspadini/?locale=en_US" target="_blank"
-        rel='noreferrer noopener'>LinkedIn</a>
+        rel='noreferrer noopener' role="button" aria-label="linkedin link">LinkedIn</a>
     </section>
   </main>
 
